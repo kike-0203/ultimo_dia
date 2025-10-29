@@ -1,4 +1,10 @@
-﻿from app import app as app
+﻿from flask import Flask
+
+app = Flask(__name__)
+
+@app.get("/")
+def index():
+    return "Hola desde Render - Flask mínimo"
 
 if __name__ == "__main__":
     import os
