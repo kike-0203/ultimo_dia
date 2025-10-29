@@ -1,0 +1,7 @@
+﻿flask
+python-dotenv
+pillow
+matplotlib
+numpy
+openai>=1.0.0
+gunicorn
